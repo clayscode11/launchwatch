@@ -35,10 +35,6 @@ function startTimer() {
 function displayTime () {
     clearInterval(intervalId);
     displayEl.textContent += totalTime + ' - ';
-    ss= String(0).padStart(2,'0');
-    mm= String(0).padStart(2,'0');
-    hh= String(0).padStart(2,'0');
-    totalTime= `${hh}:${mm}:${ss}`;
     timerEl.textContent= totalTime;
     buttonEl.disabled= false;
 }
