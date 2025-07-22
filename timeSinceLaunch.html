@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="timeSinceLaunch.css">
+        <script src="dayjs.min.js"></script>
+    </head>
+        <body class="box">
+            <div table; max-width: 200px;>
+                <h1>Launch Watch</h1>
+                <h2 id="timer-el"></h2>
+                <h3 id= "date-el"></h3>
+                <button id="start-btn" onclick="this.classList.add('blink-button');
+                setTimeout(() => this.classList.remove('blink-button'), 80)";>START</button>
+                 <button id="log-btn" onclick="displayTime(), this.classList.add('blink-button');
+                setTimeout(() => this.classList.remove('blink-button'), 80)";>LAP</button>
+                <h4 id="display-el"></h4>
+                <script src="timeSinceLaunch.js"></script>
+            </div>
+        </body>
+</html>
