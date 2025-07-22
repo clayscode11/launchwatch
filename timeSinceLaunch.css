@@ -46,7 +46,7 @@ button {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #f0f4f8;
+    color: #ffffff;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -61,12 +61,14 @@ button.blink-button {
 }
 
 #start-btn {
-    background: #ff6b6b
+    background: #e0a800;
 }
 
+
 #log-btn {
-    background: #4ecdc4
+    background: #e0a800;
 }
+
 
 @keyframes blinker {
   50% {
